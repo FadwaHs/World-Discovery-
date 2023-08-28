@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr3"
+    android:padding="20dp"
+    tools:context=".Interface2Forgotpass">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="UselessParent"
+        >
+        <EditText
+            android:id="@+id/forgetpasswcode"
+            android:textColor="#000"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@android:color/black"
+            android:hint="@string/code"
+            android:importantForAutofill="no"
+            android:background="@drawable/edittextsyle"
+
+            />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Enter"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="100dp"/>
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:background="@drawable/buttonlogin"
+            android:layout_below="@id/textview2"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

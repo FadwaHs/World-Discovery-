@@ -1,0 +1,12 @@
+com.subinkrishna.widget
+attr ci_borderColor
+attr ci_borderWidth
+attr ci_checked
+attr ci_checkedStateBackgroundColor
+attr ci_placeholderBackgroundColor
+attr ci_placeholderText
+attr ci_placeholderTextColor
+attr ci_placeholderTextSize
+attr ci_shadowColor
+attr ci_shadowRadius
+styleable CircularImageView ci_borderColor ci_borderWidth ci_checked ci_checkedStateBackgroundColor ci_placeholderBackgroundColor ci_placeholderText ci_placeholderTextColor ci_placeholderTextSize ci_shadowColor ci_shadowRadius

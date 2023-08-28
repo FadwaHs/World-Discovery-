@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr3"
+    android:padding="20dp"
+    tools:context=".Interface1Forgotpass">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="UselessParent"
+        >
+
+        <ImageView
+            android:id="@+id/resetImg"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:src="@drawable/resetimg"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:layout_below="@+id/resetImg"/>
+
+        <EditText
+            android:id="@+id/Edpass"
+            android:textColor="#000"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColorHint="@android:color/black"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:background="@drawable/edittextsyle"
+            android:layout_below="@+id/textview"
+
+            />
+        <EditText
+            android:id="@+id/EdConfirmpass"
+            android:textColor="#000"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:layout_below="@+id/Edpass"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="90sp"
+            android:textColorHint="@android:color/black"
+            android:hint="@string/confirmpass"
+            android:importantForAutofill="no"
+            android:background="@drawable/edittextsyle"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Reset"
+            android:background="@drawable/buttonlogin"
+            android:layout_below="@id/EdConfirmpass"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>

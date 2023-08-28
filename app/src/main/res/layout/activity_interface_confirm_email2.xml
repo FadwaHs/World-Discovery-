@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr3"
+    android:padding="20dp"
+    tools:context=".InterfaceConfirmEmail2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+
+        tools:ignore="UselessParent"
+        >
+        <ImageView
+            android:id="@+id/resetImg"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:src="@drawable/emailicon"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Verification"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:layout_below="@+id/resetImg"/>
+
+        <EditText
+            android:id="@+id/EdEmailconfirm"
+            android:textColor="#000"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="40dp"
+            android:textColorHint="@android:color/black"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:background="@drawable/edittextsyle"
+            android:layout_below="@+id/textview"
+            android:inputType="textEmailAddress"
+            />
+
+
+
+        <EditText
+            android:id="@+id/ConfirmEmailEditText"
+            android:textColor="#000"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@android:color/black"
+            android:hint="@string/code"
+            android:importantForAutofill="no"
+            android:layout_below="@id/EdEmailconfirm"
+            android:background="@drawable/edittextsyle"
+
+
+            />
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Enter"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+
+            android:layout_below="@id/ConfirmEmailEditText"
+            android:layout_marginBottom="55dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:background="@drawable/buttonlogin"
+            android:layout_below="@id/textview2"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

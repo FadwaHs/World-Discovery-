@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.subinkrishna.widget.CircularImageView
+        android:id="@+id/cityItemImage"
+        android:src="@drawable/koala"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="6dp"
+        app:ci_borderWidth="3dp"
+        app:ci_borderColor="#EC9C4C"
+        app:ci_shadowRadius="5.0"
+        android:background="#fff"
+        app:ci_shadowColor="#999999"
+
+
+        />
+
+    <TextView
+        android:id="@+id/cityItemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Paris"
+        android:maxLines="1"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

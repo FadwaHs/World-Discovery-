@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/homePageSearchwithcancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#EC9C4C">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:background="@drawable/raduis">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/search"/>
+
+            <EditText
+                android:id="@+id/searchEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Discover a city"
+                android:textSize="20dp"
+                android:layerType="software"
+                android:inputType="text"
+                android:maxLines="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#fff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:layout_marginRight="10dp"
+            android:text="Cancel"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/profileSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="15sp"
+            android:src="@drawable/setting"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.subinkrishna.widget.CircularImageView
+            android:id="@+id/profileImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:ci_borderWidth="3dp"
+            app:ci_borderColor="#EC9C4C"
+            app:ci_shadowRadius="5.0"
+            app:ci_shadowColor="#999999"
+            android:src="@drawable/koala"
+            />
+
+        <TextView
+            android:id="@+id/profileUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:text="User Name"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#3498db"/>
+
+    <GridView
+        android:id="@+id/profileGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:numColumns="3"/>
+
+</LinearLayout>

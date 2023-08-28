@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularImageView"><attr format="color" name="ci_borderColor"/><attr format="dimension" name="ci_borderWidth"/><attr format="color" name="ci_placeholderBackgroundColor"/><attr format="string" name="ci_placeholderText"/><attr format="color" name="ci_placeholderTextColor"/><attr format="dimension" name="ci_placeholderTextSize"/><attr format="boolean" name="ci_checked"/><attr format="color" name="ci_checkedStateBackgroundColor"/><attr format="float" name="ci_shadowRadius"/><attr format="color" name="ci_shadowColor"/></declare-styleable>
+</resources>

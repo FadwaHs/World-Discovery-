@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">PFE</string>
+    <string name="explore"><b>Explore Cities Differently</b></string>
+    <string name="travel">Travel inspired with cool tips and surprising stories</string>
+    <string name="popular"><b>Popular in</b></string>
+    <string name="change">Change city</string>
+    <string name="discover_world">Discover World</string>
+    <string name="world_discovery">World Discovery</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_here">Login Here</string>
+    <string name="Please">please enter your email address to search for your account</string>
+    <string name="confirm">Confirm</string>
+    <string name="code">Code</string>
+    <string name="next">Next</string>
+    <string name="Enter">Enter the code that was sent in your email address</string>
+    <string name="reset">Reset your Password</string>
+    <string name="confirmpass">Confirm Password</string>
+    <string name="Reset">Reset</string>
+    <string name="Check">check</string>
+    <string name="categorie1"><![CDATA[Food & Drink]]></string>
+    <string name="categorie2"><![CDATA[See & Do]]></string>
+    <string name="categorie3"><![CDATA[Guides & Tips]]></string>
+    <string name="categorie4">Places to stay</string>
+    <string name="categorie5">LifeStyle</string>
+    <string name="categorie7">Art</string>
+    <string name="categorie6">Music</string>
+    <string name="categorie8">Books</string>
+    <string name="categorie9"><![CDATA[Film & TV]]></string>
+    <string name="favorite">WishLists</string>
+    <string name="setting">Settings</string>
+    <string name="deconnexion">LOG OUT</string>
+    <string name="message"><b>MESSAGE</b></string>
+
+    <string-array name="categories">
+        <item>@string/categorie1</item>
+        <item>@string/categorie2</item>
+        <item>@string/categorie3</item>
+        <item>@string/categorie4</item>
+        <item>@string/categorie5</item>
+        <item>@string/categorie6</item>
+        <item>@string/categorie7</item>
+        <item>@string/categorie8</item>
+        <item>@string/categorie9</item>
+    </string-array>
+</resources>

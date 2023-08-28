@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_post"
+        android:baselineAligned="false"
+        android:elevation="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_post"
+            android:elevation="8dp"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="100dp"
+                android:layout_width="match_parent"
+                >
+            <ImageView
+                android:id="@+id/placePostedImage"
+                android:layout_width="match_parent"
+                android:background="@drawable/borderimage"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                android:src="@drawable/img" />
+
+            <ImageView
+                android:id="@+id/placeSave"
+                android:layout_width="wrap_content"
+                android:tag=""
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:src="@drawable/savepostborderblanc" />
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/placeCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:text="Category"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                />
+
+            <TextView
+                android:id="@+id/placeDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="4"
+                android:text="10 Excellent Reason why you should visit prague"
+                android:textColor="@android:color/black"
+                android:textSize="19dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.subinkrishna.widget.CircularImageView
+                    android:id="@+id/ProfileImage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/img" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ProfileName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/change"
+                        android:textColor="#3498db"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/placePostedDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Jan 10 ,2020" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

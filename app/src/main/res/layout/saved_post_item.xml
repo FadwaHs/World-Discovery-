@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="@drawable/post"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/savedPostedImage"
+                android:src="@drawable/koala"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/savedPlaceSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="saved"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/savepostblanc"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/savedCategory"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="#454545"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:layout_marginBottom="9dp"/>
+            <TextView
+                android:id="@+id/savedDescription"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="10 Excellent Reason why you should visit prague"
+                android:textColor="@android:color/black"
+                android:textSize="19dp"
+                android:layout_marginBottom="9dp"
+                android:fontFamily="sans-serif-black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.subinkrishna.widget.CircularImageView
+                    android:id="@+id/savedProfileImage"
+                    android:src="@drawable/koala"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/savedProfileName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change"
+                        android:textColor="#3498db"
+                        android:fontFamily="sans-serif-black"/>
+                    <TextView
+                        android:id="@+id/savedPostedDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jan 10 ,2020"
+                        android:fontFamily="sans-serif"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

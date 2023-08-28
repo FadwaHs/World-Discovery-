@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/SenderItemLinearlayout">
+
+    <com.subinkrishna.widget.CircularImageView
+        android:id="@+id/senderItemProfileImg"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+        android:onClick="OpenChatPage"
+        app:ci_borderWidth="3dp"
+        app:ci_borderColor="#EC9C4C"
+        app:ci_shadowRadius="5.0"
+        app:ci_shadowColor="#999999"
+        android:src="@drawable/koala"/>
+
+    <TextView
+        android:id="@+id/senderItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:text="User"/>
+
+</LinearLayout>
